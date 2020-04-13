@@ -1,0 +1,50 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+#game{
+
+    margin-left: 40px;
+}
+
+body{
+
+  height: 100%;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container{
+
+   display: flex;
+   flex-direction: column;
+    width: 48%;
+    border: solid 1.5px yellow;
+    margin-top: 15px;
+    margin-right: 20px;
+   
+
+}
+
+#gameTitle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    text-align: center;
+    width: 40%;
+
+
+}
+
+
+#startGame{
+
+
+    background-color: rgb(147, 226, 147);
+    font-weight: bold;
+}
