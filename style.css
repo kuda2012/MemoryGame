@@ -6,45 +6,35 @@
   display: inline-block;
 }
 
-#game{
-
-    margin-left: 40px;
+#game {
+  margin-left: 40px;
 }
 
-body{
-
+body {
   height: 100%;
   background-color: skyblue;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.container{
-
-   display: flex;
-   flex-direction: column;
-    width: 48%;
-    border: solid 1.5px yellow;
-    margin-top: 15px;
-    margin-right: 20px;
-   
-
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  border: solid 1.5px yellow;
+  margin-top: 15px;
+  margin-right: 10px;
 }
 
-#gameTitle{
-    display: flex;
-    flex-direction: column;
-    margin-top: 5px;
-    text-align: center;
-    width: 40%;
-
-
+#gameTitle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  text-align: center;
+  width: 40%;
 }
 
-
-#startGame{
-
-
-    background-color: rgb(147, 226, 147);
-    font-weight: bold;
+#startGame {
+  background-color: rgb(147, 226, 147);
+  font-weight: bold;
 }
